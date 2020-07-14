@@ -2,7 +2,6 @@
 
 def reverse_each_word(sentence)
   arr = sentence.split(" ")
-  p arr
 end 
 
 
