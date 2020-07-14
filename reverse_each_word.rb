@@ -5,7 +5,9 @@ def reverse_each_word(sentence)
   new_arr = []
   
   arr.each do |word|
-    word.reverse
+   new_arr.push(word.reverse)
+ end 
+ p new_arr
 end 
 
 
