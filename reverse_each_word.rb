@@ -4,8 +4,7 @@ def reverse_each_word(sentence)
   arr = sentence.split(" ")
   new_arr = []
   
-  arr.each do |word|
-   new_arr.push(word.reverse)
+  arr.collect do |word|
  end 
  p new_arr.join(" ")
 end 
